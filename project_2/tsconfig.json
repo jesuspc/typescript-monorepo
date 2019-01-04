@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [
+      "es7", "dom", "es2015.promise"
+    ],
+    "strict": false,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "esModuleInterop": true
+  }
+}

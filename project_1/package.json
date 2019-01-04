@@ -1,0 +1,11 @@
+{
+  "name": "@projects/project_1",
+  "private": true,
+  "version": "1.0.0",
+  "dependencies": {
+    "@projects/project_2": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.2.2"
+  }
+}

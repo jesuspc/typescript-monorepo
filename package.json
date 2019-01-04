@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "workspaces": [
+    "project_1",
+    "project_2"
+  ],
+  "devDependencies": {
+    "typescript": "^3.2.2"
+  }
+}
