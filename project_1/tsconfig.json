@@ -2,27 +2,13 @@
   "extends": "../tsconfig.shared.json",
   "compilerOptions": {
     "outDir": "lib",
-    "rootDir": "src"
+    "rootDir": "src",
+    "baseUrl": "../",
+    "paths": {
+      "@projects/*": ["./*"]
+    }
   },
   "references": [
     { "path": "../project_2" }
   ]
 }
-
-// {
-//   "compilerOptions": {
-//     "target": "es5",
-//     "module": "commonjs",
-//     "lib": [
-//       "es7", "dom", "es2015.promise"
-//     ],
-//     "strict": false,
-//     "moduleResolution": "node",
-//     "sourceMap": true,
-//     "esModuleInterop": true,
-//     "baseUrl": "../",
-//     "paths": {
-//       "@projects/*": ["./*"]
-//     }
-//   }
-// }
