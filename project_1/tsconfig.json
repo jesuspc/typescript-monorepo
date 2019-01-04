@@ -13,8 +13,5 @@
     "paths": {
       "@projects/*": ["./*"]
     }
-  },
-  "references": [
-    { "path" : "../../project_2" }
-  ]
+  }
 }
