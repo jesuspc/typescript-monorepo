@@ -1,8 +1,7 @@
 {
   "extends": "../tsconfig.shared.json",
   "compilerOptions": {
-    "outDir": "lib",
-    "rootDir": "src",
+    "rootDirs": ["src", "../project_2"],
     "baseUrl": "../",
     "paths": {
       "@projects/*": ["./*"]
