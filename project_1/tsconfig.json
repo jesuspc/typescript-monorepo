@@ -1,13 +1,5 @@
 {
   "extends": "../tsconfig.shared.json",
   "compilerOptions": {
-    "rootDirs": ["src", "../project_2"],
-    "baseUrl": "../",
-    "paths": {
-      "@projects/*": ["./*"]
-    }
-  },
-  "references": [
-    { "path": "../project_2" }
-  ]
+  }
 }

@@ -1,5 +1,7 @@
 {
+  "include": ["project_1", "project_2"],
   "compilerOptions": {
+    "rootDir": ".",
       "target": "es5",
       "module": "commonjs",
       "declaration": true,
@@ -7,6 +9,11 @@
       "sourceMap": true,
       "strict": true,
       "composite": true,
-      "esModuleInterop": true
+    "esModuleInterop": true,
+      "baseUrl": ".",
+      "paths": {
+        "@project_1/*": ["project_1/*"],
+        "@project_2/*": ["project_2/*"]
+      }
   }
 }
